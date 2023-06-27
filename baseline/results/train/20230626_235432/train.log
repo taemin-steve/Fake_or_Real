@@ -1,0 +1,616 @@
+2023-06-26 23:54:32,451 | train | INFO | Set Logger C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432
+2023-06-26 23:54:32,761 | train | INFO | Load data, train:14000 val:6000
+2023-06-26 23:54:33,011 | train | INFO | Initiated early stopper, mode: max, best score: inf, patience: 10
+2023-06-26 23:54:33,020 | train | INFO | --Train 0/50
+2023-06-26 23:54:46,925 | train | INFO | batch: 0/437 loss: 0.7177395224571228
+2023-06-26 23:55:33,955 | train | INFO | batch: 100/437 loss: 0.4768174886703491
+2023-06-26 23:56:21,412 | train | INFO | batch: 200/437 loss: 0.2442816197872162
+2023-06-26 23:57:09,206 | train | INFO | batch: 300/437 loss: 0.5476657152175903
+2023-06-26 23:57:57,634 | train | INFO | batch: 400/437 loss: 0.3227314054965973
+2023-06-26 23:58:16,157 | train | INFO | --Val 0/50
+2023-06-26 23:58:25,989 | train | INFO | batch: 0/187 loss: 0.4221847653388977
+2023-06-26 23:59:13,360 | train | INFO | batch: 100/187 loss: 0.5013054013252258
+2023-06-26 23:59:55,677 | train | INFO | Write row 0
+2023-06-26 23:59:57,142 | train | INFO | Early stopper, counter 0/10, best:0.8544451871657754 -> now:0.8544451871657754
+2023-06-26 23:59:57,142 | train | INFO | Set counter as 0
+2023-06-26 23:59:57,142 | train | INFO | Update best score as 0.8544451871657754
+2023-06-26 23:59:57,396 | train | INFO | Recorder, epoch 0 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-26 23:59:57,396 | train | INFO | --Train 1/50
+2023-06-27 00:00:06,231 | train | INFO | batch: 0/437 loss: 0.31289756298065186
+2023-06-27 00:00:51,475 | train | INFO | batch: 100/437 loss: 0.3944483995437622
+2023-06-27 00:01:38,329 | train | INFO | batch: 200/437 loss: 0.3996289372444153
+2023-06-27 00:02:24,704 | train | INFO | batch: 300/437 loss: 0.2372477799654007
+2023-06-27 00:03:11,043 | train | INFO | batch: 400/437 loss: 0.2834364175796509
+2023-06-27 00:03:29,547 | train | INFO | --Val 1/50
+2023-06-27 00:03:39,490 | train | INFO | batch: 0/187 loss: 0.15760168433189392
+2023-06-27 00:04:26,336 | train | INFO | batch: 100/187 loss: 0.36902832984924316
+2023-06-27 00:05:07,774 | train | INFO | Write row 1
+2023-06-27 00:05:09,127 | train | INFO | Early stopper, counter 0/10, best:0.9137700534759359 -> now:0.9137700534759359
+2023-06-27 00:05:09,127 | train | INFO | Set counter as 0
+2023-06-27 00:05:09,127 | train | INFO | Update best score as 0.9137700534759359
+2023-06-27 00:05:09,335 | train | INFO | Recorder, epoch 1 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:05:09,335 | train | INFO | --Train 2/50
+2023-06-27 00:05:18,296 | train | INFO | batch: 0/437 loss: 0.12206587195396423
+2023-06-27 00:06:04,411 | train | INFO | batch: 100/437 loss: 0.10222280770540237
+2023-06-27 00:06:51,166 | train | INFO | batch: 200/437 loss: 0.17418932914733887
+2023-06-27 00:07:38,126 | train | INFO | batch: 300/437 loss: 0.2064553052186966
+2023-06-27 00:08:25,298 | train | INFO | batch: 400/437 loss: 0.08604137599468231
+2023-06-27 00:08:43,297 | train | INFO | --Val 2/50
+2023-06-27 00:08:52,824 | train | INFO | batch: 0/187 loss: 0.09704314172267914
+2023-06-27 00:09:40,387 | train | INFO | batch: 100/187 loss: 0.2670712471008301
+2023-06-27 00:10:21,645 | train | INFO | Write row 2
+2023-06-27 00:10:22,970 | train | INFO | Early stopper, counter 0/10, best:0.9293114973262032 -> now:0.9293114973262032
+2023-06-27 00:10:22,970 | train | INFO | Set counter as 0
+2023-06-27 00:10:22,970 | train | INFO | Update best score as 0.9293114973262032
+2023-06-27 00:10:23,185 | train | INFO | Recorder, epoch 2 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:10:23,186 | train | INFO | --Train 3/50
+2023-06-27 00:10:32,035 | train | INFO | batch: 0/437 loss: 0.19202521443367004
+2023-06-27 00:11:17,236 | train | INFO | batch: 100/437 loss: 0.04888145253062248
+2023-06-27 00:12:03,308 | train | INFO | batch: 200/437 loss: 0.11539576947689056
+2023-06-27 00:12:49,965 | train | INFO | batch: 300/437 loss: 0.029144879430532455
+2023-06-27 00:13:36,352 | train | INFO | batch: 400/437 loss: 0.09799496084451675
+2023-06-27 00:13:54,653 | train | INFO | --Val 3/50
+2023-06-27 00:14:04,493 | train | INFO | batch: 0/187 loss: 0.06626442074775696
+2023-06-27 00:14:50,633 | train | INFO | batch: 100/187 loss: 0.2978212237358093
+2023-06-27 00:15:31,688 | train | INFO | Write row 3
+2023-06-27 00:15:33,109 | train | INFO | Early stopper, counter 0/10, best:0.9331550802139037 -> now:0.9331550802139037
+2023-06-27 00:15:33,109 | train | INFO | Set counter as 0
+2023-06-27 00:15:33,109 | train | INFO | Update best score as 0.9331550802139037
+2023-06-27 00:15:33,334 | train | INFO | Recorder, epoch 3 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:15:33,334 | train | INFO | --Train 4/50
+2023-06-27 00:15:42,126 | train | INFO | batch: 0/437 loss: 0.2665127217769623
+2023-06-27 00:16:26,771 | train | INFO | batch: 100/437 loss: 0.01586153730750084
+2023-06-27 00:17:12,907 | train | INFO | batch: 200/437 loss: 0.07518227398395538
+2023-06-27 00:17:59,527 | train | INFO | batch: 300/437 loss: 0.05027572810649872
+2023-06-27 00:18:46,280 | train | INFO | batch: 400/437 loss: 0.030565228313207626
+2023-06-27 00:19:04,804 | train | INFO | --Val 4/50
+2023-06-27 00:19:14,798 | train | INFO | batch: 0/187 loss: 0.21620342135429382
+2023-06-27 00:20:01,146 | train | INFO | batch: 100/187 loss: 0.2761257290840149
+2023-06-27 00:20:42,763 | train | INFO | Write row 4
+2023-06-27 00:20:44,209 | train | INFO | Early stopper, counter 1/10, best:0.9331550802139037 -> now:0.9256350267379679
+2023-06-27 00:20:44,209 | train | INFO | --Train 5/50
+2023-06-27 00:20:52,831 | train | INFO | batch: 0/437 loss: 0.13403449952602386
+2023-06-27 00:21:38,446 | train | INFO | batch: 100/437 loss: 0.25572994351387024
+2023-06-27 00:22:24,252 | train | INFO | batch: 200/437 loss: 0.016677875071763992
+2023-06-27 00:23:11,167 | train | INFO | batch: 300/437 loss: 0.20608602464199066
+2023-06-27 00:23:57,432 | train | INFO | batch: 400/437 loss: 0.06715670973062515
+2023-06-27 00:24:15,314 | train | INFO | --Val 5/50
+2023-06-27 00:24:25,102 | train | INFO | batch: 0/187 loss: 0.0471993088722229
+2023-06-27 00:25:11,090 | train | INFO | batch: 100/187 loss: 0.26036497950553894
+2023-06-27 00:25:51,978 | train | INFO | Write row 5
+2023-06-27 00:25:53,427 | train | INFO | Early stopper, counter 0/10, best:0.9334893048128342 -> now:0.9334893048128342
+2023-06-27 00:25:53,427 | train | INFO | Set counter as 0
+2023-06-27 00:25:53,427 | train | INFO | Update best score as 0.9334893048128342
+2023-06-27 00:25:53,643 | train | INFO | Recorder, epoch 5 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:25:53,643 | train | INFO | --Train 6/50
+2023-06-27 00:26:02,337 | train | INFO | batch: 0/437 loss: 0.036225032061338425
+2023-06-27 00:26:47,435 | train | INFO | batch: 100/437 loss: 0.16945289075374603
+2023-06-27 00:27:33,433 | train | INFO | batch: 200/437 loss: 0.02843138761818409
+2023-06-27 00:28:19,757 | train | INFO | batch: 300/437 loss: 0.018603498116135597
+2023-06-27 00:29:05,916 | train | INFO | batch: 400/437 loss: 0.023235205560922623
+2023-06-27 00:29:23,690 | train | INFO | --Val 6/50
+2023-06-27 00:29:33,411 | train | INFO | batch: 0/187 loss: 0.01771846041083336
+2023-06-27 00:30:19,645 | train | INFO | batch: 100/187 loss: 0.16287139058113098
+2023-06-27 00:31:00,564 | train | INFO | Write row 6
+2023-06-27 00:31:02,011 | train | INFO | Early stopper, counter 0/10, best:0.9400066844919787 -> now:0.9400066844919787
+2023-06-27 00:31:02,011 | train | INFO | Set counter as 0
+2023-06-27 00:31:02,011 | train | INFO | Update best score as 0.9400066844919787
+2023-06-27 00:31:02,224 | train | INFO | Recorder, epoch 6 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:31:02,224 | train | INFO | --Train 7/50
+2023-06-27 00:31:11,024 | train | INFO | batch: 0/437 loss: 0.062021151185035706
+2023-06-27 00:31:55,922 | train | INFO | batch: 100/437 loss: 0.021078716963529587
+2023-06-27 00:32:41,752 | train | INFO | batch: 200/437 loss: 0.010213065892457962
+2023-06-27 00:33:28,221 | train | INFO | batch: 300/437 loss: 0.025447050109505653
+2023-06-27 00:34:14,776 | train | INFO | batch: 400/437 loss: 0.011776071973145008
+2023-06-27 00:34:32,370 | train | INFO | --Val 7/50
+2023-06-27 00:34:42,116 | train | INFO | batch: 0/187 loss: 0.12291388213634491
+2023-06-27 00:35:27,946 | train | INFO | batch: 100/187 loss: 0.11932597309350967
+2023-06-27 00:36:08,614 | train | INFO | Write row 7
+2023-06-27 00:36:09,998 | train | INFO | Early stopper, counter 0/10, best:0.9410093582887701 -> now:0.9410093582887701
+2023-06-27 00:36:09,998 | train | INFO | Set counter as 0
+2023-06-27 00:36:09,998 | train | INFO | Update best score as 0.9410093582887701
+2023-06-27 00:36:10,219 | train | INFO | Recorder, epoch 7 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:36:10,220 | train | INFO | --Train 8/50
+2023-06-27 00:36:18,917 | train | INFO | batch: 0/437 loss: 0.10945649445056915
+2023-06-27 00:37:03,822 | train | INFO | batch: 100/437 loss: 0.08189088106155396
+2023-06-27 00:37:49,364 | train | INFO | batch: 200/437 loss: 0.04308049753308296
+2023-06-27 00:38:35,988 | train | INFO | batch: 300/437 loss: 0.03433870151638985
+2023-06-27 00:39:22,642 | train | INFO | batch: 400/437 loss: 0.11942528188228607
+2023-06-27 00:39:40,841 | train | INFO | --Val 8/50
+2023-06-27 00:39:50,631 | train | INFO | batch: 0/187 loss: 0.06631167978048325
+2023-06-27 00:40:36,782 | train | INFO | batch: 100/187 loss: 0.3254433274269104
+2023-06-27 00:41:17,701 | train | INFO | Write row 8
+2023-06-27 00:41:19,229 | train | INFO | Early stopper, counter 1/10, best:0.9410093582887701 -> now:0.9405080213903744
+2023-06-27 00:41:19,229 | train | INFO | --Train 9/50
+2023-06-27 00:41:28,052 | train | INFO | batch: 0/437 loss: 0.009130846709012985
+2023-06-27 00:42:12,761 | train | INFO | batch: 100/437 loss: 0.05553743243217468
+2023-06-27 00:42:58,955 | train | INFO | batch: 200/437 loss: 0.009514566510915756
+2023-06-27 00:43:45,194 | train | INFO | batch: 300/437 loss: 0.01197944488376379
+2023-06-27 00:44:31,511 | train | INFO | batch: 400/437 loss: 0.012594155967235565
+2023-06-27 00:44:49,401 | train | INFO | --Val 9/50
+2023-06-27 00:44:59,120 | train | INFO | batch: 0/187 loss: 0.24048927426338196
+2023-06-27 00:45:45,127 | train | INFO | batch: 100/187 loss: 0.27403196692466736
+2023-06-27 00:46:26,221 | train | INFO | Write row 9
+2023-06-27 00:46:27,630 | train | INFO | Early stopper, counter 2/10, best:0.9410093582887701 -> now:0.9380013368983957
+2023-06-27 00:46:27,630 | train | INFO | --Train 10/50
+2023-06-27 00:46:36,325 | train | INFO | batch: 0/437 loss: 0.02291598916053772
+2023-06-27 00:47:21,830 | train | INFO | batch: 100/437 loss: 0.040875375270843506
+2023-06-27 00:48:07,250 | train | INFO | batch: 200/437 loss: 0.009070966392755508
+2023-06-27 00:48:53,532 | train | INFO | batch: 300/437 loss: 0.002085144631564617
+2023-06-27 00:49:39,869 | train | INFO | batch: 400/437 loss: 0.040104229003190994
+2023-06-27 00:49:57,569 | train | INFO | --Val 10/50
+2023-06-27 00:50:07,232 | train | INFO | batch: 0/187 loss: 0.02870086207985878
+2023-06-27 00:50:53,104 | train | INFO | batch: 100/187 loss: 0.09779368340969086
+2023-06-27 00:51:33,656 | train | INFO | Write row 10
+2023-06-27 00:51:35,103 | train | INFO | Early stopper, counter 0/10, best:0.9461898395721925 -> now:0.9461898395721925
+2023-06-27 00:51:35,103 | train | INFO | Set counter as 0
+2023-06-27 00:51:35,103 | train | INFO | Update best score as 0.9461898395721925
+2023-06-27 00:51:35,324 | train | INFO | Recorder, epoch 10 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 00:51:35,326 | train | INFO | --Train 11/50
+2023-06-27 00:51:44,045 | train | INFO | batch: 0/437 loss: 0.01562715321779251
+2023-06-27 00:52:28,723 | train | INFO | batch: 100/437 loss: 0.0011162508744746447
+2023-06-27 00:53:15,121 | train | INFO | batch: 200/437 loss: 0.011374199762940407
+2023-06-27 00:54:01,861 | train | INFO | batch: 300/437 loss: 0.013334326446056366
+2023-06-27 00:54:47,992 | train | INFO | batch: 400/437 loss: 0.021303122863173485
+2023-06-27 00:55:05,894 | train | INFO | --Val 11/50
+2023-06-27 00:55:15,543 | train | INFO | batch: 0/187 loss: 0.03178030624985695
+2023-06-27 00:56:01,745 | train | INFO | batch: 100/187 loss: 0.1253363937139511
+2023-06-27 00:56:42,662 | train | INFO | Write row 11
+2023-06-27 00:56:44,119 | train | INFO | Early stopper, counter 1/10, best:0.9461898395721925 -> now:0.9431818181818182
+2023-06-27 00:56:44,119 | train | INFO | --Train 12/50
+2023-06-27 00:56:52,987 | train | INFO | batch: 0/437 loss: 0.046699538826942444
+2023-06-27 00:57:40,297 | train | INFO | batch: 100/437 loss: 0.029804836958646774
+2023-06-27 00:58:28,123 | train | INFO | batch: 200/437 loss: 0.010687888599932194
+2023-06-27 00:59:15,082 | train | INFO | batch: 300/437 loss: 0.0028171660378575325
+2023-06-27 01:00:01,584 | train | INFO | batch: 400/437 loss: 0.04620104655623436
+2023-06-27 01:00:19,553 | train | INFO | --Val 12/50
+2023-06-27 01:00:29,448 | train | INFO | batch: 0/187 loss: 0.027553096413612366
+2023-06-27 01:01:16,123 | train | INFO | batch: 100/187 loss: 0.18989239633083344
+2023-06-27 01:01:57,678 | train | INFO | Write row 12
+2023-06-27 01:01:59,150 | train | INFO | Early stopper, counter 0/10, best:0.9466911764705882 -> now:0.9466911764705882
+2023-06-27 01:01:59,150 | train | INFO | Set counter as 0
+2023-06-27 01:01:59,150 | train | INFO | Update best score as 0.9466911764705882
+2023-06-27 01:01:59,357 | train | INFO | Recorder, epoch 12 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 01:01:59,357 | train | INFO | --Train 13/50
+2023-06-27 01:02:08,069 | train | INFO | batch: 0/437 loss: 0.0010898562613874674
+2023-06-27 01:02:53,289 | train | INFO | batch: 100/437 loss: 0.004676918499171734
+2023-06-27 01:03:38,422 | train | INFO | batch: 200/437 loss: 0.0034052340779453516
+2023-06-27 01:04:25,246 | train | INFO | batch: 300/437 loss: 0.004662935622036457
+2023-06-27 01:05:12,086 | train | INFO | batch: 400/437 loss: 0.000516947649884969
+2023-06-27 01:05:29,908 | train | INFO | --Val 13/50
+2023-06-27 01:05:39,749 | train | INFO | batch: 0/187 loss: 0.05832171067595482
+2023-06-27 01:06:25,765 | train | INFO | batch: 100/187 loss: 0.2677277624607086
+2023-06-27 01:07:06,770 | train | INFO | Write row 13
+2023-06-27 01:07:08,335 | train | INFO | Early stopper, counter 1/10, best:0.9466911764705882 -> now:0.9405080213903744
+2023-06-27 01:07:08,335 | train | INFO | --Train 14/50
+2023-06-27 01:07:17,186 | train | INFO | batch: 0/437 loss: 0.08677629381418228
+2023-06-27 01:08:02,341 | train | INFO | batch: 100/437 loss: 0.004050745163112879
+2023-06-27 01:08:47,878 | train | INFO | batch: 200/437 loss: 0.030520780012011528
+2023-06-27 01:09:34,595 | train | INFO | batch: 300/437 loss: 0.057944003492593765
+2023-06-27 01:10:20,903 | train | INFO | batch: 400/437 loss: 0.026240820065140724
+2023-06-27 01:10:38,800 | train | INFO | --Val 14/50
+2023-06-27 01:10:48,655 | train | INFO | batch: 0/187 loss: 0.07280880212783813
+2023-06-27 01:11:34,736 | train | INFO | batch: 100/187 loss: 0.34318867325782776
+2023-06-27 01:12:15,982 | train | INFO | Write row 14
+2023-06-27 01:12:17,545 | train | INFO | Early stopper, counter 2/10, best:0.9466911764705882 -> now:0.9410093582887701
+2023-06-27 01:12:17,545 | train | INFO | --Train 15/50
+2023-06-27 01:12:26,289 | train | INFO | batch: 0/437 loss: 0.001532202586531639
+2023-06-27 01:13:10,570 | train | INFO | batch: 100/437 loss: 0.009277807548642159
+2023-06-27 01:13:56,265 | train | INFO | batch: 200/437 loss: 0.0016735410317778587
+2023-06-27 01:14:43,227 | train | INFO | batch: 300/437 loss: 0.010938799008727074
+2023-06-27 01:15:29,627 | train | INFO | batch: 400/437 loss: 0.0036853584460914135
+2023-06-27 01:15:47,597 | train | INFO | --Val 15/50
+2023-06-27 01:15:57,360 | train | INFO | batch: 0/187 loss: 0.15117667615413666
+2023-06-27 01:16:43,680 | train | INFO | batch: 100/187 loss: 0.08741135895252228
+2023-06-27 01:17:24,711 | train | INFO | Write row 15
+2023-06-27 01:17:26,439 | train | INFO | Early stopper, counter 3/10, best:0.9466911764705882 -> now:0.94451871657754
+2023-06-27 01:17:26,439 | train | INFO | --Train 16/50
+2023-06-27 01:17:35,193 | train | INFO | batch: 0/437 loss: 0.008362259715795517
+2023-06-27 01:18:20,203 | train | INFO | batch: 100/437 loss: 0.0003000990254804492
+2023-06-27 01:19:05,829 | train | INFO | batch: 200/437 loss: 0.0058686137199401855
+2023-06-27 01:19:51,835 | train | INFO | batch: 300/437 loss: 0.017139876261353493
+2023-06-27 01:20:38,618 | train | INFO | batch: 400/437 loss: 0.00013208652671892196
+2023-06-27 01:20:57,137 | train | INFO | --Val 16/50
+2023-06-27 01:21:06,862 | train | INFO | batch: 0/187 loss: 0.08454988896846771
+2023-06-27 01:21:52,894 | train | INFO | batch: 100/187 loss: 0.269721657037735
+2023-06-27 01:22:33,969 | train | INFO | Write row 16
+2023-06-27 01:22:35,564 | train | INFO | Early stopper, counter 4/10, best:0.9466911764705882 -> now:0.9435160427807486
+2023-06-27 01:22:35,564 | train | INFO | --Train 17/50
+2023-06-27 01:22:44,482 | train | INFO | batch: 0/437 loss: 0.05282434821128845
+2023-06-27 01:23:29,189 | train | INFO | batch: 100/437 loss: 0.0288368072360754
+2023-06-27 01:24:15,876 | train | INFO | batch: 200/437 loss: 0.0002308293478563428
+2023-06-27 01:25:02,383 | train | INFO | batch: 300/437 loss: 0.0001120966553571634
+2023-06-27 01:25:48,657 | train | INFO | batch: 400/437 loss: 0.005801196675747633
+2023-06-27 01:26:06,665 | train | INFO | --Val 17/50
+2023-06-27 01:26:16,568 | train | INFO | batch: 0/187 loss: 0.007124274969100952
+2023-06-27 01:27:02,997 | train | INFO | batch: 100/187 loss: 0.13185831904411316
+2023-06-27 01:27:44,440 | train | INFO | Write row 17
+2023-06-27 01:27:46,088 | train | INFO | Early stopper, counter 0/10, best:0.9542112299465241 -> now:0.9542112299465241
+2023-06-27 01:27:46,088 | train | INFO | Set counter as 0
+2023-06-27 01:27:46,088 | train | INFO | Update best score as 0.9542112299465241
+2023-06-27 01:27:46,345 | train | INFO | Recorder, epoch 17 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 01:27:46,350 | train | INFO | --Train 18/50
+2023-06-27 01:27:55,015 | train | INFO | batch: 0/437 loss: 0.021090593189001083
+2023-06-27 01:28:40,143 | train | INFO | batch: 100/437 loss: 0.0023432483430951834
+2023-06-27 01:29:26,574 | train | INFO | batch: 200/437 loss: 0.009145639836788177
+2023-06-27 01:30:12,791 | train | INFO | batch: 300/437 loss: 0.0005327934050001204
+2023-06-27 01:30:59,163 | train | INFO | batch: 400/437 loss: 0.0002684002392925322
+2023-06-27 01:31:17,212 | train | INFO | --Val 18/50
+2023-06-27 01:31:27,086 | train | INFO | batch: 0/187 loss: 0.0031005190685391426
+2023-06-27 01:32:13,407 | train | INFO | batch: 100/187 loss: 0.08586695045232773
+2023-06-27 01:32:54,453 | train | INFO | Write row 18
+2023-06-27 01:32:56,168 | train | INFO | Early stopper, counter 0/10, best:0.9545454545454546 -> now:0.9545454545454546
+2023-06-27 01:32:56,168 | train | INFO | Set counter as 0
+2023-06-27 01:32:56,168 | train | INFO | Update best score as 0.9545454545454546
+2023-06-27 01:32:56,394 | train | INFO | Recorder, epoch 18 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 01:32:56,394 | train | INFO | --Train 19/50
+2023-06-27 01:33:05,092 | train | INFO | batch: 0/437 loss: 0.00633424473926425
+2023-06-27 01:33:49,677 | train | INFO | batch: 100/437 loss: 0.06503137946128845
+2023-06-27 01:34:35,450 | train | INFO | batch: 200/437 loss: 0.0029534129425883293
+2023-06-27 01:35:22,262 | train | INFO | batch: 300/437 loss: 0.00018816250667441636
+2023-06-27 01:36:08,508 | train | INFO | batch: 400/437 loss: 0.0007013395661488175
+2023-06-27 01:36:26,572 | train | INFO | --Val 19/50
+2023-06-27 01:36:36,383 | train | INFO | batch: 0/187 loss: 0.008538905531167984
+2023-06-27 01:37:22,406 | train | INFO | batch: 100/187 loss: 0.08923634141683578
+2023-06-27 01:38:03,235 | train | INFO | Write row 19
+2023-06-27 01:38:04,860 | train | INFO | Early stopper, counter 0/10, best:0.9557152406417112 -> now:0.9557152406417112
+2023-06-27 01:38:04,860 | train | INFO | Set counter as 0
+2023-06-27 01:38:04,860 | train | INFO | Update best score as 0.9557152406417112
+2023-06-27 01:38:05,068 | train | INFO | Recorder, epoch 19 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 01:38:05,076 | train | INFO | --Train 20/50
+2023-06-27 01:38:13,799 | train | INFO | batch: 0/437 loss: 0.005126177798956633
+2023-06-27 01:38:58,818 | train | INFO | batch: 100/437 loss: 0.0031252324115484953
+2023-06-27 01:39:44,403 | train | INFO | batch: 200/437 loss: 0.00030291517032310367
+2023-06-27 01:40:30,999 | train | INFO | batch: 300/437 loss: 0.018400708213448524
+2023-06-27 01:41:17,103 | train | INFO | batch: 400/437 loss: 0.010739964433014393
+2023-06-27 01:41:35,194 | train | INFO | --Val 20/50
+2023-06-27 01:41:44,888 | train | INFO | batch: 0/187 loss: 0.1769530177116394
+2023-06-27 01:42:30,952 | train | INFO | batch: 100/187 loss: 0.31226253509521484
+2023-06-27 01:43:12,018 | train | INFO | Write row 20
+2023-06-27 01:43:13,698 | train | INFO | Early stopper, counter 1/10, best:0.9557152406417112 -> now:0.923629679144385
+2023-06-27 01:43:13,698 | train | INFO | --Train 21/50
+2023-06-27 01:43:22,333 | train | INFO | batch: 0/437 loss: 0.053184375166893005
+2023-06-27 01:44:07,174 | train | INFO | batch: 100/437 loss: 0.0006128064123913646
+2023-06-27 01:44:52,891 | train | INFO | batch: 200/437 loss: 0.00026040663942694664
+2023-06-27 01:45:39,770 | train | INFO | batch: 300/437 loss: 0.0009386147139593959
+2023-06-27 01:46:25,970 | train | INFO | batch: 400/437 loss: 0.0003563706995919347
+2023-06-27 01:46:43,906 | train | INFO | --Val 21/50
+2023-06-27 01:46:53,789 | train | INFO | batch: 0/187 loss: 0.10491921752691269
+2023-06-27 01:47:40,061 | train | INFO | batch: 100/187 loss: 0.36093664169311523
+2023-06-27 01:48:21,498 | train | INFO | Write row 21
+2023-06-27 01:48:23,359 | train | INFO | Early stopper, counter 2/10, best:0.9557152406417112 -> now:0.942346256684492
+2023-06-27 01:48:23,359 | train | INFO | --Train 22/50
+2023-06-27 01:48:31,992 | train | INFO | batch: 0/437 loss: 0.0018006926402449608
+2023-06-27 01:49:16,241 | train | INFO | batch: 100/437 loss: 0.0003967168158851564
+2023-06-27 01:50:02,782 | train | INFO | batch: 200/437 loss: 0.0025348677299916744
+2023-06-27 01:50:49,426 | train | INFO | batch: 300/437 loss: 0.027872595936059952
+2023-06-27 01:51:35,503 | train | INFO | batch: 400/437 loss: 0.0006488970248028636
+2023-06-27 01:51:53,796 | train | INFO | --Val 22/50
+2023-06-27 01:52:03,501 | train | INFO | batch: 0/187 loss: 0.08844657242298126
+2023-06-27 01:52:49,840 | train | INFO | batch: 100/187 loss: 0.12536722421646118
+2023-06-27 01:53:30,865 | train | INFO | Write row 22
+2023-06-27 01:53:32,661 | train | INFO | Early stopper, counter 3/10, best:0.9557152406417112 -> now:0.9512032085561497
+2023-06-27 01:53:32,661 | train | INFO | --Train 23/50
+2023-06-27 01:53:41,323 | train | INFO | batch: 0/437 loss: 3.42594830726739e-05
+2023-06-27 01:54:25,907 | train | INFO | batch: 100/437 loss: 0.016974108293652534
+2023-06-27 01:55:12,050 | train | INFO | batch: 200/437 loss: 0.00036929320776835084
+2023-06-27 01:55:58,841 | train | INFO | batch: 300/437 loss: 0.0026584393344819546
+2023-06-27 01:56:45,689 | train | INFO | batch: 400/437 loss: 0.0009361753473058343
+2023-06-27 01:57:03,835 | train | INFO | --Val 23/50
+2023-06-27 01:57:13,629 | train | INFO | batch: 0/187 loss: 0.01801159791648388
+2023-06-27 01:57:59,919 | train | INFO | batch: 100/187 loss: 0.20764310657978058
+2023-06-27 01:58:40,986 | train | INFO | Write row 23
+2023-06-27 01:58:42,784 | train | INFO | Early stopper, counter 0/10, best:0.9567179144385026 -> now:0.9567179144385026
+2023-06-27 01:58:42,785 | train | INFO | Set counter as 0
+2023-06-27 01:58:42,785 | train | INFO | Update best score as 0.9567179144385026
+2023-06-27 01:58:43,005 | train | INFO | Recorder, epoch 23 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 01:58:43,005 | train | INFO | --Train 24/50
+2023-06-27 01:58:51,657 | train | INFO | batch: 0/437 loss: 0.05560345575213432
+2023-06-27 01:59:37,730 | train | INFO | batch: 100/437 loss: 0.006874349433928728
+2023-06-27 02:00:24,279 | train | INFO | batch: 200/437 loss: 0.03241019695997238
+2023-06-27 02:01:10,299 | train | INFO | batch: 300/437 loss: 0.013536649756133556
+2023-06-27 02:01:56,929 | train | INFO | batch: 400/437 loss: 0.003836167510598898
+2023-06-27 02:02:14,544 | train | INFO | --Val 24/50
+2023-06-27 02:02:24,338 | train | INFO | batch: 0/187 loss: 0.05147840082645416
+2023-06-27 02:03:10,754 | train | INFO | batch: 100/187 loss: 0.20069360733032227
+2023-06-27 02:03:52,052 | train | INFO | Write row 24
+2023-06-27 02:03:53,846 | train | INFO | Early stopper, counter 1/10, best:0.9567179144385026 -> now:0.9453542780748663
+2023-06-27 02:03:53,846 | train | INFO | --Train 25/50
+2023-06-27 02:04:02,518 | train | INFO | batch: 0/437 loss: 0.001950129633769393
+2023-06-27 02:04:48,079 | train | INFO | batch: 100/437 loss: 0.0024709533900022507
+2023-06-27 02:05:34,123 | train | INFO | batch: 200/437 loss: 0.001938381465151906
+2023-06-27 02:06:20,548 | train | INFO | batch: 300/437 loss: 0.008591528981924057
+2023-06-27 02:07:07,129 | train | INFO | batch: 400/437 loss: 5.739027074014302e-06
+2023-06-27 02:07:25,117 | train | INFO | --Val 25/50
+2023-06-27 02:07:34,990 | train | INFO | batch: 0/187 loss: 0.0031528372783213854
+2023-06-27 02:08:21,140 | train | INFO | batch: 100/187 loss: 0.14432990550994873
+2023-06-27 02:09:02,230 | train | INFO | Write row 25
+2023-06-27 02:09:04,039 | train | INFO | Early stopper, counter 0/10, best:0.9572192513368984 -> now:0.9572192513368984
+2023-06-27 02:09:04,047 | train | INFO | Set counter as 0
+2023-06-27 02:09:04,047 | train | INFO | Update best score as 0.9572192513368984
+2023-06-27 02:09:04,269 | train | INFO | Recorder, epoch 25 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 02:09:04,277 | train | INFO | --Train 26/50
+2023-06-27 02:09:13,055 | train | INFO | batch: 0/437 loss: 0.0002910406037699431
+2023-06-27 02:09:58,421 | train | INFO | batch: 100/437 loss: 0.202488973736763
+2023-06-27 02:10:45,612 | train | INFO | batch: 200/437 loss: 0.004304895177483559
+2023-06-27 02:11:32,174 | train | INFO | batch: 300/437 loss: 3.2557189115323126e-05
+2023-06-27 02:12:18,807 | train | INFO | batch: 400/437 loss: 0.0008183165336959064
+2023-06-27 02:12:37,382 | train | INFO | --Val 26/50
+2023-06-27 02:12:47,122 | train | INFO | batch: 0/187 loss: 0.04662815108895302
+2023-06-27 02:13:33,307 | train | INFO | batch: 100/187 loss: 0.11072180420160294
+2023-06-27 02:14:14,229 | train | INFO | Write row 26
+2023-06-27 02:14:16,195 | train | INFO | Early stopper, counter 1/10, best:0.9572192513368984 -> now:0.9547125668449198
+2023-06-27 02:14:16,195 | train | INFO | --Train 27/50
+2023-06-27 02:14:25,163 | train | INFO | batch: 0/437 loss: 0.0006939097074791789
+2023-06-27 02:15:10,199 | train | INFO | batch: 100/437 loss: 0.0006080785533413291
+2023-06-27 02:15:56,059 | train | INFO | batch: 200/437 loss: 0.05765446275472641
+2023-06-27 02:16:42,081 | train | INFO | batch: 300/437 loss: 0.020048407837748528
+2023-06-27 02:17:28,745 | train | INFO | batch: 400/437 loss: 0.0011350417044013739
+2023-06-27 02:17:46,484 | train | INFO | --Val 27/50
+2023-06-27 02:17:56,253 | train | INFO | batch: 0/187 loss: 0.005889773368835449
+2023-06-27 02:18:42,941 | train | INFO | batch: 100/187 loss: 3.1713786125183105
+2023-06-27 02:19:24,190 | train | INFO | Write row 27
+2023-06-27 02:19:26,073 | train | INFO | Early stopper, counter 2/10, best:0.9572192513368984 -> now:0.9562165775401069
+2023-06-27 02:19:26,073 | train | INFO | --Train 28/50
+2023-06-27 02:19:34,837 | train | INFO | batch: 0/437 loss: 0.004551564808934927
+2023-06-27 02:20:18,653 | train | INFO | batch: 100/437 loss: 1.0202256817137823e-05
+2023-06-27 02:21:04,804 | train | INFO | batch: 200/437 loss: 0.0012321742251515388
+2023-06-27 02:21:51,610 | train | INFO | batch: 300/437 loss: 0.0012347971787676215
+2023-06-27 02:22:38,788 | train | INFO | batch: 400/437 loss: 0.0020462283864617348
+2023-06-27 02:22:56,558 | train | INFO | --Val 28/50
+2023-06-27 02:23:06,352 | train | INFO | batch: 0/187 loss: 0.019923053681850433
+2023-06-27 02:23:52,307 | train | INFO | batch: 100/187 loss: 0.13018304109573364
+2023-06-27 02:24:33,271 | train | INFO | Write row 28
+2023-06-27 02:24:35,214 | train | INFO | Early stopper, counter 3/10, best:0.9572192513368984 -> now:0.9543783422459893
+2023-06-27 02:24:35,214 | train | INFO | --Train 29/50
+2023-06-27 02:24:43,940 | train | INFO | batch: 0/437 loss: 0.001413962454535067
+2023-06-27 02:25:29,299 | train | INFO | batch: 100/437 loss: 0.0008816179470159113
+2023-06-27 02:26:15,592 | train | INFO | batch: 200/437 loss: 0.0006511608371511102
+2023-06-27 02:27:01,895 | train | INFO | batch: 300/437 loss: 0.023742713034152985
+2023-06-27 02:27:47,769 | train | INFO | batch: 400/437 loss: 0.0045757414773106575
+2023-06-27 02:28:05,859 | train | INFO | --Val 29/50
+2023-06-27 02:28:15,646 | train | INFO | batch: 0/187 loss: 0.004659533035010099
+2023-06-27 02:29:01,528 | train | INFO | batch: 100/187 loss: 0.11825190484523773
+2023-06-27 02:29:42,739 | train | INFO | Write row 29
+2023-06-27 02:29:44,863 | train | INFO | Early stopper, counter 0/10, best:0.9577205882352942 -> now:0.9577205882352942
+2023-06-27 02:29:44,863 | train | INFO | Set counter as 0
+2023-06-27 02:29:44,863 | train | INFO | Update best score as 0.9577205882352942
+2023-06-27 02:29:45,092 | train | INFO | Recorder, epoch 29 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 02:29:45,092 | train | INFO | --Train 30/50
+2023-06-27 02:29:53,848 | train | INFO | batch: 0/437 loss: 0.0014508047606796026
+2023-06-27 02:30:38,645 | train | INFO | batch: 100/437 loss: 0.003526664339005947
+2023-06-27 02:31:25,147 | train | INFO | batch: 200/437 loss: 0.000614345830399543
+2023-06-27 02:32:11,129 | train | INFO | batch: 300/437 loss: 0.011062380857765675
+2023-06-27 02:32:57,704 | train | INFO | batch: 400/437 loss: 2.609864532132633e-05
+2023-06-27 02:33:15,800 | train | INFO | --Val 30/50
+2023-06-27 02:33:25,941 | train | INFO | batch: 0/187 loss: 0.20101723074913025
+2023-06-27 02:34:11,820 | train | INFO | batch: 100/187 loss: 0.1910654455423355
+2023-06-27 02:34:52,899 | train | INFO | Write row 30
+2023-06-27 02:34:54,861 | train | INFO | Early stopper, counter 1/10, best:0.9577205882352942 -> now:0.9517045454545454
+2023-06-27 02:34:54,861 | train | INFO | --Train 31/50
+2023-06-27 02:35:03,590 | train | INFO | batch: 0/437 loss: 0.0010995562188327312
+2023-06-27 02:35:49,078 | train | INFO | batch: 100/437 loss: 0.003644330194219947
+2023-06-27 02:36:35,489 | train | INFO | batch: 200/437 loss: 0.0182381272315979
+2023-06-27 02:37:21,801 | train | INFO | batch: 300/437 loss: 0.0018455673707649112
+2023-06-27 02:38:08,086 | train | INFO | batch: 400/437 loss: 0.0032276930287480354
+2023-06-27 02:38:25,691 | train | INFO | --Val 31/50
+2023-06-27 02:38:35,428 | train | INFO | batch: 0/187 loss: 0.012594098225235939
+2023-06-27 02:39:21,599 | train | INFO | batch: 100/187 loss: 0.16198158264160156
+2023-06-27 02:40:02,566 | train | INFO | Write row 31
+2023-06-27 02:40:04,468 | train | INFO | Early stopper, counter 2/10, best:0.9577205882352942 -> now:0.9568850267379679
+2023-06-27 02:40:04,468 | train | INFO | --Train 32/50
+2023-06-27 02:40:13,258 | train | INFO | batch: 0/437 loss: 0.1546701192855835
+2023-06-27 02:40:58,325 | train | INFO | batch: 100/437 loss: 0.005105620715767145
+2023-06-27 02:41:44,796 | train | INFO | batch: 200/437 loss: 0.009857222437858582
+2023-06-27 02:42:31,281 | train | INFO | batch: 300/437 loss: 0.002923807594925165
+2023-06-27 02:43:17,926 | train | INFO | batch: 400/437 loss: 8.889117452781647e-05
+2023-06-27 02:43:35,992 | train | INFO | --Val 32/50
+2023-06-27 02:43:45,932 | train | INFO | batch: 0/187 loss: 0.0014482259284704924
+2023-06-27 02:44:31,875 | train | INFO | batch: 100/187 loss: 0.10600089281797409
+2023-06-27 02:45:12,895 | train | INFO | Write row 32
+2023-06-27 02:45:14,853 | train | INFO | Early stopper, counter 0/10, best:0.9583890374331551 -> now:0.9583890374331551
+2023-06-27 02:45:14,853 | train | INFO | Set counter as 0
+2023-06-27 02:45:14,853 | train | INFO | Update best score as 0.9583890374331551
+2023-06-27 02:45:15,080 | train | INFO | Recorder, epoch 32 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 02:45:15,080 | train | INFO | --Train 33/50
+2023-06-27 02:45:23,941 | train | INFO | batch: 0/437 loss: 0.003455593017861247
+2023-06-27 02:46:09,081 | train | INFO | batch: 100/437 loss: 0.00011445327254477888
+2023-06-27 02:46:55,766 | train | INFO | batch: 200/437 loss: 0.014893109910190105
+2023-06-27 02:47:42,639 | train | INFO | batch: 300/437 loss: 0.02839605323970318
+2023-06-27 02:48:28,575 | train | INFO | batch: 400/437 loss: 0.00073173304554075
+2023-06-27 02:48:46,054 | train | INFO | --Val 33/50
+2023-06-27 02:48:55,800 | train | INFO | batch: 0/187 loss: 0.012782263569533825
+2023-06-27 02:49:41,851 | train | INFO | batch: 100/187 loss: 0.08812004327774048
+2023-06-27 02:50:22,793 | train | INFO | Write row 33
+2023-06-27 02:50:24,731 | train | INFO | Early stopper, counter 1/10, best:0.9583890374331551 -> now:0.9577205882352942
+2023-06-27 02:50:24,731 | train | INFO | --Train 34/50
+2023-06-27 02:50:33,438 | train | INFO | batch: 0/437 loss: 6.675931945210323e-05
+2023-06-27 02:51:19,062 | train | INFO | batch: 100/437 loss: 0.04839861020445824
+2023-06-27 02:52:05,357 | train | INFO | batch: 200/437 loss: 0.00626694830134511
+2023-06-27 02:52:51,256 | train | INFO | batch: 300/437 loss: 0.002066920744255185
+2023-06-27 02:53:36,956 | train | INFO | batch: 400/437 loss: 0.0062346248887479305
+2023-06-27 02:53:55,472 | train | INFO | --Val 34/50
+2023-06-27 02:54:05,314 | train | INFO | batch: 0/187 loss: 0.11203963309526443
+2023-06-27 02:54:51,614 | train | INFO | batch: 100/187 loss: 0.018000610172748566
+2023-06-27 02:55:32,611 | train | INFO | Write row 34
+2023-06-27 02:55:34,619 | train | INFO | Early stopper, counter 0/10, best:0.9615641711229946 -> now:0.9615641711229946
+2023-06-27 02:55:34,619 | train | INFO | Set counter as 0
+2023-06-27 02:55:34,619 | train | INFO | Update best score as 0.9615641711229946
+2023-06-27 02:55:34,856 | train | INFO | Recorder, epoch 34 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 02:55:34,856 | train | INFO | --Train 35/50
+2023-06-27 02:55:43,755 | train | INFO | batch: 0/437 loss: 3.25620494550094e-05
+2023-06-27 02:56:29,202 | train | INFO | batch: 100/437 loss: 1.0918214684352279e-05
+2023-06-27 02:57:15,340 | train | INFO | batch: 200/437 loss: 0.0002278665779158473
+2023-06-27 02:58:01,585 | train | INFO | batch: 300/437 loss: 0.009078876115381718
+2023-06-27 02:58:47,689 | train | INFO | batch: 400/437 loss: 0.0022613052278757095
+2023-06-27 02:59:05,424 | train | INFO | --Val 35/50
+2023-06-27 02:59:15,202 | train | INFO | batch: 0/187 loss: 0.04366707801818848
+2023-06-27 03:00:01,296 | train | INFO | batch: 100/187 loss: 0.20384865999221802
+2023-06-27 03:00:42,279 | train | INFO | Write row 35
+2023-06-27 03:00:44,345 | train | INFO | Early stopper, counter 1/10, best:0.9615641711229946 -> now:0.9577205882352942
+2023-06-27 03:00:44,345 | train | INFO | --Train 36/50
+2023-06-27 03:00:52,996 | train | INFO | batch: 0/437 loss: 0.011241337284445763
+2023-06-27 03:01:38,714 | train | INFO | batch: 100/437 loss: 2.091562419082038e-05
+2023-06-27 03:02:25,418 | train | INFO | batch: 200/437 loss: 8.258357411250472e-05
+2023-06-27 03:03:11,179 | train | INFO | batch: 300/437 loss: 0.00010003111674450338
+2023-06-27 03:03:58,119 | train | INFO | batch: 400/437 loss: 0.00020777038298547268
+2023-06-27 03:04:16,461 | train | INFO | --Val 36/50
+2023-06-27 03:04:26,503 | train | INFO | batch: 0/187 loss: 0.007678589317947626
+2023-06-27 03:05:13,251 | train | INFO | batch: 100/187 loss: 0.0506788045167923
+2023-06-27 03:05:54,652 | train | INFO | Write row 36
+2023-06-27 03:05:56,769 | train | INFO | Early stopper, counter 0/10, best:0.9657419786096256 -> now:0.9657419786096256
+2023-06-27 03:05:56,769 | train | INFO | Set counter as 0
+2023-06-27 03:05:56,769 | train | INFO | Update best score as 0.9657419786096256
+2023-06-27 03:05:57,005 | train | INFO | Recorder, epoch 36 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 03:05:57,006 | train | INFO | --Train 37/50
+2023-06-27 03:06:05,708 | train | INFO | batch: 0/437 loss: 1.4385006579686888e-05
+2023-06-27 03:06:50,878 | train | INFO | batch: 100/437 loss: 0.00022576673654839396
+2023-06-27 03:07:37,010 | train | INFO | batch: 200/437 loss: 2.5370694856974296e-05
+2023-06-27 03:08:24,165 | train | INFO | batch: 300/437 loss: 0.016872594133019447
+2023-06-27 03:09:10,880 | train | INFO | batch: 400/437 loss: 0.0003438292187638581
+2023-06-27 03:09:28,784 | train | INFO | --Val 37/50
+2023-06-27 03:09:38,580 | train | INFO | batch: 0/187 loss: 0.009732287377119064
+2023-06-27 03:10:24,679 | train | INFO | batch: 100/187 loss: 0.1628025323152542
+2023-06-27 03:11:05,881 | train | INFO | Write row 37
+2023-06-27 03:11:08,005 | train | INFO | Early stopper, counter 1/10, best:0.9657419786096256 -> now:0.9538770053475936
+2023-06-27 03:11:08,005 | train | INFO | --Train 38/50
+2023-06-27 03:11:16,793 | train | INFO | batch: 0/437 loss: 0.001328037935309112
+2023-06-27 03:12:01,933 | train | INFO | batch: 100/437 loss: 0.0003015131806023419
+2023-06-27 03:12:48,546 | train | INFO | batch: 200/437 loss: 0.0005924900760874152
+2023-06-27 03:13:34,460 | train | INFO | batch: 300/437 loss: 0.0026490269228816032
+2023-06-27 03:14:20,814 | train | INFO | batch: 400/437 loss: 0.0002447807346470654
+2023-06-27 03:14:39,128 | train | INFO | --Val 38/50
+2023-06-27 03:14:48,685 | train | INFO | batch: 0/187 loss: 0.011533889919519424
+2023-06-27 03:15:34,851 | train | INFO | batch: 100/187 loss: 0.17663364112377167
+2023-06-27 03:16:16,189 | train | INFO | Write row 38
+2023-06-27 03:16:18,191 | train | INFO | Early stopper, counter 0/10, best:0.9669117647058824 -> now:0.9669117647058824
+2023-06-27 03:16:18,191 | train | INFO | Set counter as 0
+2023-06-27 03:16:18,191 | train | INFO | Update best score as 0.9669117647058824
+2023-06-27 03:16:18,422 | train | INFO | Recorder, epoch 38 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 03:16:18,422 | train | INFO | --Train 39/50
+2023-06-27 03:16:27,290 | train | INFO | batch: 0/437 loss: 0.0009140422334894538
+2023-06-27 03:17:12,341 | train | INFO | batch: 100/437 loss: 0.0014198962599039078
+2023-06-27 03:17:58,732 | train | INFO | batch: 200/437 loss: 0.00046729104360565543
+2023-06-27 03:18:45,577 | train | INFO | batch: 300/437 loss: 0.001860299613326788
+2023-06-27 03:19:31,759 | train | INFO | batch: 400/437 loss: 0.07605054974555969
+2023-06-27 03:19:49,640 | train | INFO | --Val 39/50
+2023-06-27 03:19:59,570 | train | INFO | batch: 0/187 loss: 0.058517683297395706
+2023-06-27 03:20:45,629 | train | INFO | batch: 100/187 loss: 0.002475999528542161
+2023-06-27 03:21:26,829 | train | INFO | Write row 39
+2023-06-27 03:21:28,962 | train | INFO | Early stopper, counter 1/10, best:0.9669117647058824 -> now:0.9593917112299465
+2023-06-27 03:21:28,963 | train | INFO | --Train 40/50
+2023-06-27 03:21:37,588 | train | INFO | batch: 0/437 loss: 0.00021469246712513268
+2023-06-27 03:22:22,778 | train | INFO | batch: 100/437 loss: 0.00270623667165637
+2023-06-27 03:23:09,330 | train | INFO | batch: 200/437 loss: 2.4281047444674186e-05
+2023-06-27 03:23:56,231 | train | INFO | batch: 300/437 loss: 0.0004112566530238837
+2023-06-27 03:24:42,481 | train | INFO | batch: 400/437 loss: 0.0009225517278537154
+2023-06-27 03:25:00,213 | train | INFO | --Val 40/50
+2023-06-27 03:25:09,876 | train | INFO | batch: 0/187 loss: 0.007008146494626999
+2023-06-27 03:25:55,969 | train | INFO | batch: 100/187 loss: 0.02415616810321808
+2023-06-27 03:26:37,122 | train | INFO | Write row 40
+2023-06-27 03:26:39,194 | train | INFO | Early stopper, counter 2/10, best:0.9669117647058824 -> now:0.9627339572192514
+2023-06-27 03:26:39,194 | train | INFO | --Train 41/50
+2023-06-27 03:26:48,078 | train | INFO | batch: 0/437 loss: 0.013045739382505417
+2023-06-27 03:27:33,736 | train | INFO | batch: 100/437 loss: 0.039185602217912674
+2023-06-27 03:28:20,197 | train | INFO | batch: 200/437 loss: 7.69098405726254e-05
+2023-06-27 03:29:06,616 | train | INFO | batch: 300/437 loss: 0.0004324518085923046
+2023-06-27 03:29:52,847 | train | INFO | batch: 400/437 loss: 0.06774818897247314
+2023-06-27 03:30:11,013 | train | INFO | --Val 41/50
+2023-06-27 03:30:20,744 | train | INFO | batch: 0/187 loss: 0.011445537209510803
+2023-06-27 03:31:07,388 | train | INFO | batch: 100/187 loss: 0.23327502608299255
+2023-06-27 03:31:49,008 | train | INFO | Write row 41
+2023-06-27 03:31:51,205 | train | INFO | Early stopper, counter 3/10, best:0.9669117647058824 -> now:0.954879679144385
+2023-06-27 03:31:51,205 | train | INFO | --Train 42/50
+2023-06-27 03:31:59,996 | train | INFO | batch: 0/437 loss: 0.02606380358338356
+2023-06-27 03:32:45,070 | train | INFO | batch: 100/437 loss: 0.02099129930138588
+2023-06-27 03:33:31,665 | train | INFO | batch: 200/437 loss: 0.005245450418442488
+2023-06-27 03:34:18,308 | train | INFO | batch: 300/437 loss: 0.00034654338378459215
+2023-06-27 03:35:04,888 | train | INFO | batch: 400/437 loss: 0.005038094706833363
+2023-06-27 03:35:23,242 | train | INFO | --Val 42/50
+2023-06-27 03:35:33,242 | train | INFO | batch: 0/187 loss: 0.004576358012855053
+2023-06-27 03:36:19,467 | train | INFO | batch: 100/187 loss: 0.13978630304336548
+2023-06-27 03:37:00,745 | train | INFO | Write row 42
+2023-06-27 03:37:02,910 | train | INFO | Early stopper, counter 4/10, best:0.9669117647058824 -> now:0.959725935828877
+2023-06-27 03:37:02,910 | train | INFO | --Train 43/50
+2023-06-27 03:37:11,854 | train | INFO | batch: 0/437 loss: 7.61688788770698e-05
+2023-06-27 03:37:57,227 | train | INFO | batch: 100/437 loss: 0.01260773278772831
+2023-06-27 03:38:43,707 | train | INFO | batch: 200/437 loss: 0.0006459177238866687
+2023-06-27 03:39:29,894 | train | INFO | batch: 300/437 loss: 0.00010152319009648636
+2023-06-27 03:40:16,322 | train | INFO | batch: 400/437 loss: 0.0005140488501638174
+2023-06-27 03:40:34,766 | train | INFO | --Val 43/50
+2023-06-27 03:40:44,547 | train | INFO | batch: 0/187 loss: 0.06893394142389297
+2023-06-27 03:41:30,855 | train | INFO | batch: 100/187 loss: 0.31617575883865356
+2023-06-27 03:42:11,864 | train | INFO | Write row 43
+2023-06-27 03:42:14,101 | train | INFO | Early stopper, counter 5/10, best:0.9669117647058824 -> now:0.9664104278074866
+2023-06-27 03:42:14,101 | train | INFO | --Train 44/50
+2023-06-27 03:42:22,799 | train | INFO | batch: 0/437 loss: 0.0051874336786568165
+2023-06-27 03:43:07,882 | train | INFO | batch: 100/437 loss: 0.025462808087468147
+2023-06-27 03:43:54,351 | train | INFO | batch: 200/437 loss: 0.00017267183284275234
+2023-06-27 03:44:40,663 | train | INFO | batch: 300/437 loss: 0.0028775259852409363
+2023-06-27 03:45:26,782 | train | INFO | batch: 400/437 loss: 8.982999861473218e-05
+2023-06-27 03:45:44,914 | train | INFO | --Val 44/50
+2023-06-27 03:45:54,660 | train | INFO | batch: 0/187 loss: 0.0896909311413765
+2023-06-27 03:46:40,564 | train | INFO | batch: 100/187 loss: 0.3725391924381256
+2023-06-27 03:47:21,444 | train | INFO | Write row 44
+2023-06-27 03:47:23,720 | train | INFO | Early stopper, counter 6/10, best:0.9669117647058824 -> now:0.9502005347593583
+2023-06-27 03:47:23,720 | train | INFO | --Train 45/50
+2023-06-27 03:47:32,493 | train | INFO | batch: 0/437 loss: 0.0895828977227211
+2023-06-27 03:48:17,637 | train | INFO | batch: 100/437 loss: 0.0031501934863626957
+2023-06-27 03:49:03,883 | train | INFO | batch: 200/437 loss: 0.0007908031111583114
+2023-06-27 03:49:50,473 | train | INFO | batch: 300/437 loss: 0.0006221480434760451
+2023-06-27 03:50:36,939 | train | INFO | batch: 400/437 loss: 0.00010095799370901659
+2023-06-27 03:50:54,975 | train | INFO | --Val 45/50
+2023-06-27 03:51:04,781 | train | INFO | batch: 0/187 loss: 0.18701902031898499
+2023-06-27 03:51:50,820 | train | INFO | batch: 100/187 loss: 0.3240545988082886
+2023-06-27 03:52:31,802 | train | INFO | Write row 45
+2023-06-27 03:52:34,363 | train | INFO | Early stopper, counter 7/10, best:0.9669117647058824 -> now:0.9630681818181818
+2023-06-27 03:52:34,363 | train | INFO | --Train 46/50
+2023-06-27 03:52:43,177 | train | INFO | batch: 0/437 loss: 0.00039266698877327144
+2023-06-27 03:53:27,866 | train | INFO | batch: 100/437 loss: 0.15657076239585876
+2023-06-27 03:54:14,423 | train | INFO | batch: 200/437 loss: 0.07017835229635239
+2023-06-27 03:55:00,751 | train | INFO | batch: 300/437 loss: 1.0691616125768633e-06
+2023-06-27 03:55:47,137 | train | INFO | batch: 400/437 loss: 0.011783504858613014
+2023-06-27 03:56:05,268 | train | INFO | --Val 46/50
+2023-06-27 03:56:15,059 | train | INFO | batch: 0/187 loss: 0.0017617368139326572
+2023-06-27 03:57:00,987 | train | INFO | batch: 100/187 loss: 0.18192483484745026
+2023-06-27 03:57:42,082 | train | INFO | Write row 46
+2023-06-27 03:57:44,343 | train | INFO | Early stopper, counter 8/10, best:0.9669117647058824 -> now:0.9642379679144385
+2023-06-27 03:57:44,343 | train | INFO | --Train 47/50
+2023-06-27 03:57:53,280 | train | INFO | batch: 0/437 loss: 0.0002978725533466786
+2023-06-27 03:58:39,008 | train | INFO | batch: 100/437 loss: 0.0003556921146810055
+2023-06-27 03:59:25,096 | train | INFO | batch: 200/437 loss: 0.0003476511046756059
+2023-06-27 04:00:11,335 | train | INFO | batch: 300/437 loss: 1.3903834769735113e-05
+2023-06-27 04:00:57,311 | train | INFO | batch: 400/437 loss: 0.0005281752673909068
+2023-06-27 04:01:15,320 | train | INFO | --Val 47/50
+2023-06-27 04:01:24,943 | train | INFO | batch: 0/187 loss: 0.03968752920627594
+2023-06-27 04:02:10,974 | train | INFO | batch: 100/187 loss: 0.11351172626018524
+2023-06-27 04:02:51,772 | train | INFO | Write row 47
+2023-06-27 04:02:54,041 | train | INFO | Early stopper, counter 9/10, best:0.9669117647058824 -> now:0.9608957219251337
+2023-06-27 04:02:54,049 | train | INFO | --Train 48/50
+2023-06-27 04:03:02,758 | train | INFO | batch: 0/437 loss: 0.00031084692454896867
+2023-06-27 04:03:47,878 | train | INFO | batch: 100/437 loss: 0.0317036397755146
+2023-06-27 04:04:34,340 | train | INFO | batch: 200/437 loss: 0.00010794885020004585
+2023-06-27 04:05:20,633 | train | INFO | batch: 300/437 loss: 7.373130938503891e-05
+2023-06-27 04:06:07,454 | train | INFO | batch: 400/437 loss: 0.008279994130134583
+2023-06-27 04:06:25,454 | train | INFO | --Val 48/50
+2023-06-27 04:06:35,270 | train | INFO | batch: 0/187 loss: 0.003874389687553048
+2023-06-27 04:07:21,473 | train | INFO | batch: 100/187 loss: 0.2302236109972
+2023-06-27 04:08:02,531 | train | INFO | Write row 48
+2023-06-27 04:08:04,778 | train | INFO | Early stopper, counter 0/10, best:0.9685828877005348 -> now:0.9685828877005348
+2023-06-27 04:08:04,778 | train | INFO | Set counter as 0
+2023-06-27 04:08:04,778 | train | INFO | Update best score as 0.9685828877005348
+2023-06-27 04:08:05,013 | train | INFO | Recorder, epoch 48 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt
+2023-06-27 04:08:05,013 | train | INFO | --Train 49/50
+2023-06-27 04:08:13,685 | train | INFO | batch: 0/437 loss: 4.8375732148997486e-05
+2023-06-27 04:08:58,548 | train | INFO | batch: 100/437 loss: 0.0002718024770729244
+2023-06-27 04:09:44,533 | train | INFO | batch: 200/437 loss: 1.0582119102764409e-05
+2023-06-27 04:10:31,272 | train | INFO | batch: 300/437 loss: 9.884693281492218e-05
+2023-06-27 04:11:18,264 | train | INFO | batch: 400/437 loss: 0.004976734984666109
+2023-06-27 04:11:36,210 | train | INFO | --Val 49/50
+2023-06-27 04:11:45,769 | train | INFO | batch: 0/187 loss: 0.03602954000234604
+2023-06-27 04:12:31,865 | train | INFO | batch: 100/187 loss: 0.21434085071086884
+2023-06-27 04:13:12,927 | train | INFO | Write row 49
+2023-06-27 04:13:15,270 | train | INFO | Early stopper, counter 0/10, best:0.9685828877005348 -> now:0.9685828877005348
+2023-06-27 04:13:15,270 | train | INFO | Set counter as 0
+2023-06-27 04:13:15,270 | train | INFO | Update best score as 0.9685828877005348
+2023-06-27 04:13:15,510 | train | INFO | Recorder, epoch 49 Model saved: C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230626_235432\model.pt

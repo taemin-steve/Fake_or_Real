@@ -1,0 +1,2 @@
+2023-06-27 10:10:22,461 | train | INFO | Set Logger C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230627_101022
+2023-06-27 10:10:22,782 | train | INFO | Load data, train:14000 val:6000
