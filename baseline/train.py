@@ -108,9 +108,10 @@ if __name__ == '__main__':
     model_name = config['TRAINER']['model']
     model_args = config['MODEL'][model_name]
     model = get_model(model_name = model_name, model_args = model_args).to(device)
-    # checkpoint = torch.load("./baseline/results/train/20230626_235432/model.pt") #이어서 학습하고 싶은경우 
-    # model.load_state_dict(checkpoint['model'])
-    # model.eval()
+    checkpoint = torch.load("./baseline/results/train/20230627_161351/model.pt") #이어서 학습하고 싶은경우 
+    
+    model.load_state_dict(checkpoint['model'])
+    model.eval()
 
     
     '''
