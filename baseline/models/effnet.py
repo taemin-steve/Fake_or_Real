@@ -4,7 +4,7 @@ import timm
 class EffNet(nn.Module):
     def __init__(self, backbone, n_out, is_sigmoid):
         super(EffNet, self).__init__()
-        self.model = timm.create_model(model_name= backbone, pretrained=True)
+        self.model = timm.create_model(model_name= 'tf_efficientnetv2_s_in21k', pretrained=True)
         self.model.classifier = nn.LazyLinear(n_out)
         self.is_sigmoid = is_sigmoid
 

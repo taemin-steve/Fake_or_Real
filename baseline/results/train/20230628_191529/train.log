@@ -1,0 +1,5 @@
+2023-06-28 19:15:29,680 | train | INFO | Set Logger C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230628_191529
+2023-06-28 19:15:30,009 | train | INFO | Load data, train:28000 val:6000
+2023-06-28 19:15:30,968 | train | INFO | Initiated early stopper, mode: max, best score: inf, patience: 10
+2023-06-28 19:15:30,976 | train | INFO | --Train 0/10
+2023-06-28 19:15:44,205 | train | INFO | batch: 0/1750 loss: 0.6987875699996948
