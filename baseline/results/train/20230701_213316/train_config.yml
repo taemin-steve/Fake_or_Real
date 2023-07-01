@@ -8,7 +8,7 @@ TRAINER:
   metric:
   - accuracy
   - f1macro
-  n_epochs: 10
+  n_epochs: 3
   early_stopping_target: val_accuracy
   early_stopping_patience: 10
   early_stopping_mode: max
