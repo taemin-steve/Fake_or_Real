@@ -27,7 +27,7 @@ class CustomDataset(Dataset):
         self.y = y
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((224, 224)),
+            transforms.Resize((256, 256)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
 
@@ -54,11 +54,11 @@ class CustomDataset2(Dataset):
         self.y = y
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((256,256)),
-            transforms.RandomCrop(200),
+            transforms.Resize((300,300)),
+            transforms.RandomCrop(224),
             transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
             transforms.RandomRotation(30),
-            transforms.Resize((224, 224)),
+            transforms.Resize((256, 256)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
         
@@ -84,12 +84,12 @@ class CustomDataset3(Dataset):
         self.y = y
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((256,256)),
-            transforms.RandomCrop(224),
+            transforms.Resize((300,300)),
+            transforms.RandomCrop(256),
             transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
             transforms.RandomHorizontalFlip(p = 1),
             transforms.RandomRotation(15),
-            transforms.Resize((224, 224)),
+            transforms.Resize((256, 256)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
         
@@ -113,7 +113,7 @@ class TestDataset(Dataset):
         self.X = X
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((224, 224)),
+            transforms.Resize((256, 256)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
 
