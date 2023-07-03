@@ -1,7 +1,7 @@
 from modules.utils import load_yaml, save_yaml, get_logger
 from modules.earlystoppers import EarlyStopper
 from modules.recorders import Recorder
-from modules.datasets import SplitDataset, CustomDataset, CustomDataset2, CustomDataset3
+from modules.datasets import SplitDataset, CustomDataset, CustomDatasetFlip, CustomDatasetRot, CustomDatasetCrop, CustomDatasetJit
 from modules.optimizers import get_optimizer
 from modules.metrics import get_metric
 from modules.losses import get_loss
@@ -80,7 +80,7 @@ if __name__ == '__main__':
                  val_size = config['DATASET']['val_size'],
                  seed = config['TRAINER']['seed'],)
         
-    train_dataset = CustomDataset(X = X_train, y = Y_train)  + CustomDataset2(X = X_train, y = Y_train)  + CustomDataset3(X = X_train, y = Y_train)
+    train_dataset = CustomDataset(X = X_train, y = Y_train)  + CustomDatasetFlip(X = X_train, y = Y_train) + CustomDatasetRot(X = X_train, y = Y_train)  + CustomDatasetCrop(X = X_train, y = Y_train) + CustomDatasetJit(X = X_train, y = Y_train)
     val_dataset = CustomDataset(X = X_val, y = Y_val)
 
     # DataLoader

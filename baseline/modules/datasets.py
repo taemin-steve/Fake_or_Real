@@ -27,7 +27,7 @@ class CustomDataset(Dataset):
         self.y = y
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((256, 256)),
+            transforms.Resize((224,224)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
 
@@ -43,37 +43,68 @@ class CustomDataset(Dataset):
 
         return img, target, fname
     
-class CustomDataset2(Dataset):
-    def __init__(self, X, y):
-        '''
-        X: list of image path
-        y: list of label (0->real, 1->fake)
-        '''
+# class CustomDataset2(Dataset):
+#     def __init__(self, X, y):
+#         '''
+#         X: list of image path
+#         y: list of label (0->real, 1->fake)
+#         '''
         
-        self.X = X
-        self.y = y
-        self.transforms = transforms.Compose([
-            transforms.ToTensor(),
-            transforms.Resize((300,300)),
-            transforms.RandomCrop(224),
-            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
-            transforms.RandomRotation(30),
-            transforms.Resize((256, 256)),
-            transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
-        ])
+#         self.X = X
+#         self.y = y
+#         self.transforms = transforms.Compose([
+#             transforms.ToTensor(),
+#             transforms.Resize((300,300)),
+#             transforms.RandomCrop(224),
+#             transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
+#             transforms.RandomRotation(30),
+#             transforms.Resize((256, 256)),
+#             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
+#         ])
         
-    def __len__(self):
-        return len(self.X)
+#     def __len__(self):
+#         return len(self.X)
 
-    def __getitem__(self, index):
-        impath = self.X[index]
-        fname = os.path.basename(impath)
-        img = Image.open(impath).convert('RGB')
-        img = self.transforms(img)
-        target = self.y[index]
-        return img, target, fname
+#     def __getitem__(self, index):
+#         impath = self.X[index]
+#         fname = os.path.basename(impath)
+#         img = Image.open(impath).convert('RGB')
+#         img = self.transforms(img)
+#         target = self.y[index]
+#         return img, target, fname
     
-class CustomDataset3(Dataset):
+# class CustomDataset3(Dataset):
+#     def __init__(self, X, y):
+#         '''
+#         X: list of image path
+#         y: list of label (0->real, 1->fake)
+#         '''
+        
+#         self.X = X
+#         self.y = y
+#         self.transforms = transforms.Compose([
+#             transforms.ToTensor(),
+#             transforms.Resize((300,300)),
+#             transforms.RandomCrop(256),
+#             transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
+#             transforms.RandomHorizontalFlip(p = 1),
+#             transforms.RandomRotation(15),
+#             transforms.Resize((256, 256)),
+#             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
+#         ])
+        
+#     def __len__(self):
+#         return len(self.X)
+
+#     def __getitem__(self, index):
+#         impath = self.X[index]
+#         fname = os.path.basename(impath)
+#         img = Image.open(impath).convert('RGB')
+#         img = self.transforms(img)
+#         target = self.y[index]
+#         return img, target, fname
+
+class CustomDatasetFlip(Dataset):
     def __init__(self, X, y):
         '''
         X: list of image path
@@ -84,12 +115,97 @@ class CustomDataset3(Dataset):
         self.y = y
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((300,300)),
-            transforms.RandomCrop(256),
-            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
+            transforms.Resize((224,224)),
             transforms.RandomHorizontalFlip(p = 1),
+            transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
+        ])
+        
+    def __len__(self):
+        return len(self.X)
+
+    def __getitem__(self, index):
+        impath = self.X[index]
+        fname = os.path.basename(impath)
+        img = Image.open(impath).convert('RGB')
+        img = self.transforms(img)
+        target = self.y[index]
+        return img, target, fname
+    
+class CustomDatasetRot(Dataset):
+    def __init__(self, X, y):
+        '''
+        X: list of image path
+        y: list of label (0->real, 1->fake)
+        '''
+        
+        self.X = X
+        self.y = y
+        self.transforms = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.RandomHorizontalFlip(p = 0.5),
             transforms.RandomRotation(15),
-            transforms.Resize((256, 256)),
+            transforms.Resize((224,224)),
+            transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
+        ])
+        
+    def __len__(self):
+        return len(self.X)
+
+    def __getitem__(self, index):
+        impath = self.X[index]
+        fname = os.path.basename(impath)
+        img = Image.open(impath).convert('RGB')
+        img = self.transforms(img)
+        target = self.y[index]
+        return img, target, fname
+    
+class CustomDatasetCrop(Dataset):
+    def __init__(self, X, y):
+        '''
+        X: list of image path
+        y: list of label (0->real, 1->fake)
+        '''
+        
+        self.X = X
+        self.y = y
+        self.transforms = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Resize((256,256)),
+            transforms.RandomCrop(200),
+            transforms.RandomHorizontalFlip(p = 0.5),
+            transforms.RandomRotation(30),
+            transforms.Resize((224,224)),
+            transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
+        ])
+        
+    def __len__(self):
+        return len(self.X)
+
+    def __getitem__(self, index):
+        impath = self.X[index]
+        fname = os.path.basename(impath)
+        img = Image.open(impath).convert('RGB')
+        img = self.transforms(img)
+        target = self.y[index]
+        return img, target, fname
+    
+class CustomDatasetJit(Dataset):
+    def __init__(self, X, y):
+        '''
+        X: list of image path
+        y: list of label (0->real, 1->fake)
+        '''
+        
+        self.X = X
+        self.y = y
+        self.transforms = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Resize((256,256)),
+            transforms.RandomCrop(200),
+            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
+            transforms.RandomHorizontalFlip(p = 0.5),
+            transforms.RandomRotation(15),
+            transforms.Resize((224,224)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
         
@@ -105,6 +221,7 @@ class CustomDataset3(Dataset):
         return img, target, fname
     
 
+#---------------------------------Test DataSet------------------------------
 class TestDataset(Dataset):
     def __init__(self, X):
         '''
@@ -113,7 +230,7 @@ class TestDataset(Dataset):
         self.X = X
         self.transforms = transforms.Compose([
             transforms.ToTensor(),
-            transforms.Resize((256, 256)),
+            transforms.Resize((224)),
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
 

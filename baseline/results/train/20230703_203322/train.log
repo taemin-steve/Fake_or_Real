@@ -1,0 +1,4 @@
+2023-07-03 20:33:22,266 | train | INFO | Set Logger C:\Users\EHmin\Fake_or_Real\baseline\results\train\20230703_203322
+2023-07-03 20:33:22,601 | train | INFO | Load data, train:70000 val:6000
+2023-07-03 20:33:22,910 | train | INFO | Initiated early stopper, mode: max, best score: inf, patience: 10
+2023-07-03 20:33:22,920 | train | INFO | --Train 0/20
