@@ -6,7 +6,7 @@ DIRECTORY:
   batch_size: 32
 
 TRAIN: 
-  train_serial: "20230702_022700"
+  train_serial: "20230704_233200"
 
 
 PREDICT:
