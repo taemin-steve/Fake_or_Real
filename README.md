@@ -1,7 +1,7 @@
 # Fake_or_Real
 <!--![thum (1)](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df)-->
 <div style="width: 100%; float: center;">
-    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df" alt="Image 1">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df" alt="Image 1" width="33%" height="33%">
 </div>
 
 ## _Introduction_
@@ -24,14 +24,10 @@ Kaggle에서 [Dalle](https://www.kaggle.com/datasets/superpotato9/dalle-recognit
 ![fakeimage_655](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/cd412610-4b9b-4b10-a388-102a62eb8457)
 -->
 
-<div style="width: 33.33%; float: left;">
-    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/12402553-9f8a-46d4-ad52-87c0617a4238" alt="Image 1">
-</div>
-<div style="width: 33.33%; float: left;">
-    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/15b1ca3d-162b-4218-9af8-a7ce1858fd09" alt="Image 2">
-</div>
-<div style="width: 33.33%; float: left;">
-    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/cd412610-4b9b-4b10-a388-102a62eb8457" alt="Image 3">
+<div>
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/12402553-9f8a-46d4-ad52-87c0617a4238" alt="Image 1" width="33%" height="33%">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/15b1ca3d-162b-4218-9af8-a7ce1858fd09" alt="Image 2" width="33%" height="33%">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/cd412610-4b9b-4b10-a388-102a62eb8457" alt="Image 3" width="33%" height="33%">
 </div>
 <div style="clear: both;"></div>
 
