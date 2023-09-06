@@ -1,8 +1,8 @@
 # Fake_or_Real
 <!--![thum (1)](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df)-->
-<center>
-    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df" alt="Image 1" width="33%" height="33%">
-</center>
+<div align="center">
+  <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df" alt="Image 1" width="33%" height="33%">
+</div>
 
 ## _Introduction_
 [AI CONNECT Fake or Real](https://aiconnect.kr/competition/detail/227/task/295/taskInfo) 생성이미지 판별 경진대회 9위 구현 코드 입니다. 
