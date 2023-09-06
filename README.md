@@ -1,5 +1,8 @@
 # Fake_or_Real
-![thum (1)](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df)
+<!--![thum (1)](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df)-->
+<div style="width: 100%; float: center;">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/2c628a4f-d93b-4c44-9ac5-f6ec6ba5a7df" alt="Image 1">
+</div>
 
 ## _Introduction_
 [AI CONNECT Fake or Real](https://aiconnect.kr/competition/detail/227/task/295/taskInfo) 생성이미지 판별 경진대회 9위 구현 코드 입니다. 
@@ -15,11 +18,22 @@ Validation에서 accuracy, f1 score 모두 99%에 육박하지만, 제출시에 
 ##### 1) 외부 데이터 활용 
 본 대회는 특이하게도 외부 데이터가 허용되어있는 대회였기에 외부 데이터를 적극 활용하기로 하였습니다. 
 Kaggle에서 [Dalle](https://www.kaggle.com/datasets/superpotato9/dalle-recognition-dataset), [Midjourney](https://www.kaggle.com/datasets/ldmtwo/midjourney-250k-csv?select=midjourney_2022_reduced.csv), [Stable Diffusion](https://www.kaggle.com/datasets/tanreinama/900k-diffusion-prompts-dataset?select=diffusion_prompts.csv) 모델들을 각각 1000장, 2000장, 2000장 뽑아서 추가하였고(어떤 생성모델을 사용하였는지 몰랐기에, 되도록 고르게 사용하였고, Dalle Dataset의 퀄리티가 좋지 못해 비중 축소.), Image Net에서 실제 데이터를 5000장 추가 하여 데이터 증강을 진행하였습니다(Train set에서 Fake : real 비율이 1:1).
-<span>
+<!-- 
 ![fake_01956](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/12402553-9f8a-46d4-ad52-87c0617a4238)
 ![SDfake_5276](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/15b1ca3d-162b-4218-9af8-a7ce1858fd09)
 ![fakeimage_655](https://github.com/taemin-steve/Fake_or_Real/assets/75752289/cd412610-4b9b-4b10-a388-102a62eb8457)
-</>
+-->
+
+<div style="width: 33.33%; float: left;">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/12402553-9f8a-46d4-ad52-87c0617a4238" alt="Image 1">
+</div>
+<div style="width: 33.33%; float: left;">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/15b1ca3d-162b-4218-9af8-a7ce1858fd09" alt="Image 2">
+</div>
+<div style="width: 33.33%; float: left;">
+    <img src="https://github.com/taemin-steve/Fake_or_Real/assets/75752289/cd412610-4b9b-4b10-a388-102a62eb8457" alt="Image 3">
+</div>
+<div style="clear: both;"></div>
 
 ##### 2) torchvisio.transforms
 Torchvision의 transforms function을 활용하여 기존데이터와, 외부데이터를 추가로 증강하였습니다. Albumentations 모듈은 많이 사용해 보았기에 Torchvision 자체의 함수를 활용해 보았습니다. Filp, Rotation, ColorJitter, Crop등을 다양하게 테스트 해 보았고 결과적으로는 아래 3가지 증강을 활용하였습니다. 
