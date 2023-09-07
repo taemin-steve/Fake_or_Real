@@ -7,10 +7,14 @@
 ## _Introduction_
 [AI CONNECT Fake or Real](https://aiconnect.kr/competition/detail/227/task/295/taskInfo) 생성이미지 판별 경진대회 9위 구현 코드 입니다. 
 다양한 생성 모델로 인해 영상 위변조의 문제가 대두되는 상황 속에서 생성 AI가 만들어낸 가짜(Fake) 이미지와 진짜(Real) 이미지를 분류하는 문제입니다. 
+</br>
+</br>
 
 ## _Model_
 다양한 모델을 사용해 보았으나, 최종적으로 Efficient Net을 사용하였습니다. 
 Train data에 대하여 overfitting이 심하였고, 보다 복잡한 모델을 사용하는 것은 **overfitting 오히려 심하게 할것이라 판단**하였기에, 효율적으로 학습을 진행할 수 있는 Efficient Net을 기반으로 진행하였습니다. 
+</br>
+</br>
 
 ## _Data Augmentation_ 
 Validation에서 accuracy, f1 score 모두 99%에 육박하지만, 제출시에 f1 score가 70로 감소하는 상황이였기에 Overfitting을 해결하는 것이 가장 중요하다고 판단, 가장 확실한 방법이 Data Augmentation을 다양한 방법으로 시행하였습니다. 
@@ -66,6 +70,9 @@ self.transforms = transforms.Compose([
             transforms.Normalize([0.485, 0.456,0.406],[0.229,0.224,0.225])
         ])
 ```
+</br>
+</br>
+
 ## _Ensemble_
 최종적으로는 다양한 모델들에 대하여 ensemble을 soft vote 방식으로 진행하여 성능을 최대한 끌어 올렸습니다.
 **Train Set의 이미지의 size가 다양했기에, 다양한 size**로 학습한 모델들을 앙상블 하면 더 좋은 성능을 얻을 것이라고 판단하였고, 이미지의 크기를 다르게 하여 학습한 모델들중 성능이 좋은 다섯개를 선택하여 앙상블을 진행하였습니다. (224x224, 256x256 , 456x456)
